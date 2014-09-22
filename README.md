@@ -1,23 +1,18 @@
-# Placebo
-#### A bare minimal web-project boilerplate
-The Minimal Boilerplate, The Whole Minimal Boilerplate, and Nothing But The Minimal Boilerplate
+## Sample web application for PyCon Workshop
 
-## Why New Boilerplate
-I'm not reinventing &mdash; just redesigning the perfect wheels for **my** McLaren F1, because clobbering those general purpose sedan wheels to fit this is a fucking waste of time (each time).
-
-## Using/License
+##### Steps to launch the application:
 <pre>
-           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                   Version 2, December 2004
+$ sudo yum install nodejs npm
 
-Copyright (C) 2012 Soumya Deb <debloper@gmail.com>
+$ git clone https://github.com/anarang/placebo
+$ cd placebo/
+$ npm install
+$ npm start
+ > app@0.0.1 start /work/github/test
+ > node ./app.js
 
-Everyone is permitted to copy and distribute verbatim or modified
-copies of this license document, and changing it is allowed as long
-as the name is changed.
-
-           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
- 0. You just DO WHAT THE FUCK YOU WANT TO.
 </pre>
+Visit http://localhost:8080/ to view the sample application.
+
+Code for testing this application is available at:
+https://github.com/anarang/selenium
